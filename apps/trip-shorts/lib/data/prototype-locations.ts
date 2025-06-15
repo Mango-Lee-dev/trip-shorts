@@ -12,6 +12,7 @@ export const shortFormVideos = [
     rating: 4.8,
     location: "오사카",
     duration: "15초",
+    oneLineComment: "오사카 포즈는 이제 그만...",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const shortFormVideos = [
     rating: 4.9,
     location: "도쿄",
     duration: "22초",
+    oneLineComment: "배가...고프다...",
   },
   {
     id: 3,
@@ -36,6 +38,7 @@ export const shortFormVideos = [
     rating: 4.7,
     location: "제주도",
     duration: "18초",
+    oneLineComment: "제주도 카페를 찾아서...",
   },
   {
     id: 4,
@@ -48,5 +51,6 @@ export const shortFormVideos = [
     rating: 4.6,
     location: "방콕",
     duration: "25초",
+    oneLineComment: "곽준빈보다 잘 먹을 수 있다...?",
   },
 ];

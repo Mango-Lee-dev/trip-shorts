@@ -1,4 +1,6 @@
-export const categories = [
+import { Category } from "../../types/constants.types";
+
+export const CATEGORIES: Category[] = [
   "전체",
   "맛집",
   "카페",
