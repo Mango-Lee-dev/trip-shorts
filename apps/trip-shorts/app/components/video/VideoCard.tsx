@@ -68,7 +68,7 @@ export const VideoCard = ({ video }: VideoCardProps) => (
           </div>
         </div>
         <div className="flex flex-col">
-          <span className="text-black font-bold text-md">한 줄 평</span>
+          <span className="text-black font-bold text-md">🚀 한 줄 평 </span>
           <span className="text-gray-500 text-sm line-clamp-2">
             {video.oneLineComment}
           </span>
