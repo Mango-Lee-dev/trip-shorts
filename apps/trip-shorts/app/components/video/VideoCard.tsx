@@ -1,4 +1,12 @@
-import { Play, User, Star, Eye, Heart, MapPin } from "lucide-react";
+import {
+  Play,
+  User,
+  Star,
+  Eye,
+  Heart,
+  MapPin,
+  ShoppingCart,
+} from "lucide-react";
 import { Video } from "../../../types/video.types";
 import Image from "next/image";
 
@@ -49,14 +57,14 @@ export const VideoCard = ({ video }: VideoCardProps) => (
             {video.creator}
           </span>
         </div>
-        <div className="grid grid-cols-3 gap-2 text-sm text-gray-500">
-          <div className="flex items-center">
-            <Eye className="w-4 h-4 mr-1" />
-            <span>{video.views}</span>
+        <div className="grid grid-cols-2 gap-2 text-sm text-gray-500 w-full">
+          <div className="flex items-center flex-row w-full">
+            <Eye className="w-5 h-5 mr-2 text-gray-500 flex-shrink-0" />
+            <span className="truncate">{video.views}</span>
           </div>
-          <div className="flex items-center">
-            <Heart className="w-4 h-4 mr-1" />
-            <span>{video.likes}</span>
+          <div className="flex items-center flex-row w-full">
+            <Heart className="w-5 h-5 mr-2 text-gray-500 flex-shrink-0" />
+            <span className="truncate">{video.likes}</span>
           </div>
         </div>
         <div className="flex flex-col">
